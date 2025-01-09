@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElsBeeData - Buy Cheap Data on all Networks</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home"><img src="assets/img/co-logo.png" height="60px" width="100px" alt="ElsBee Data logo"></a>
+
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Sign Up / Login</a>
+            <a href="#about">About</a>
+            <a href="#services">Become an Agent</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <section class="hero-section">
+
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to ElsBee Data Services</h1>
+            <p>Best affordable Data Offers!</p>
+
+            <a href="#signup" class="cta-button">SHOP NOW</a>
+        </div>
+    </section>
+
+    <center>
+        <div class="content-head">
+            <h2>Featured Products</h2>
+            <hr style="color: black; border: 1px solid black; width: 100px; margin: 0 auto;">
+        </div>
+    </center>
+
+    <div class="content">
+
+
+        <div class="mtn-card">
+            <div class="mtn-logo">MTN</div>
+            <div class="card-content">Affordable Data Packages</div>
+            <a href="#" class="cta-button-card">BUY NOW</a>
+        </div>
+        <div class="at-card">
+            <div class="mtn-logo">Airtel Tigo</div>
+            <div class="card-content">Affordable Data Packages</div>
+            <a href="#" class="cta-button-card">BUY NOW</a>
+        </div>
+        <div class="telecel-card">
+            <div class="mtn-logo">Telecel</div>
+            <div class="card-content">Affordable Data Packages</div>
+            <a href="#" class="cta-button-card">BUY NOW</a>
+        </div>
+        <div class="afa-card">
+            <div class="mtn-logo">AFA Bundle</div>
+            <div class="card-content">Affordable Airtime Packages</div>
+            <a href="#" class="cta-button-card">BUY NOW</a>
+        </div>
+    </div>
+
+    <div class="features-section">
+        <div class="feature">
+            <div class="icon">📱</div>
+            <p>Fast Processing</p>
+        </div>
+        <div class="feature">
+            <div class="icon">💾</div>
+            <p>Best Offers</p>
+        </div>
+        <div class="feature">
+            <div class="icon">💳</div>
+            <p>Secure Payment</p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/img/co-logo.png" alt="ElsBeeData Logo" />
+            </div>
+            <div class="footer-column">
+                <h3>Working Hours</h3>
+                <p>Monday - Saturday</p>
+                <p>8:00am - 9:00pm</p>
+                <p>Sunday</p>
+                <p>12:00pm - 9:00pm</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <p>Support: 0599672113</p>
+                <p><a href="#">Join Whatsapp Group</a></p>
+                <p><a href="#">AFA REG. (Reg & Validation Instant.)</a></p>
+                <p><a href="#">Terms and Conditions</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2025 ElsBeeData.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 29) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
